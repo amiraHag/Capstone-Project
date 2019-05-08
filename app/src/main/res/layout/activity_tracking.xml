@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TrackingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/chart_margin"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tracking_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/user_tracking_status_image_description"
+            android:gravity="center"
+            android:tint="@color/imageTint" />
+
+        <TextView
+            android:id="@+id/tv_tracking_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/user_tracking_status_value_description"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/medium_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tracking_confidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_padding"
+            android:contentDescription="@string/user_tracking_status_confidence_description"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/small_text_size" />
+
+
+        <TextView
+            android:id="@+id/all_activities_confidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/all_confidence_text_content_description"
+            android:paddingTop="@dimen/text_padding"
+            android:text="@string/all_confidence_text"
+            android:textSize="@dimen/small_text_size" />
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/tb_tracking_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textOff="@string/tracking_button_start"
+        android:textOn="@string/tracking_button_stop"
+        android:contentDescription="@string/tracking_button_content_description"/>
+
+</RelativeLayout>
+

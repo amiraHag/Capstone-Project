@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Get Fit</string>
+
+    <!-- main activity strings -->
+    <string name="latest_bmi_value_label">Your Latest BMI Value : </string>
+    <string name="ctb_image_description">BMI toolbar background </string>
+    <string name="user_tracking_status_image_description">User Current Status Image </string>
+    <string name="user_tracking_status_value_description">User Current Status Value </string>
+    <string name="user_tracking_status_confidence_description">User Current Status Confidence Value </string>
+    <string name="user_latest_bmi_content_description">User Latest BMI Value </string>
+    <string name="activity_tracking_icon_content_description">Activity Tracking Icon </string>
+    <string name="activity_bmi_icon_content_description">Activity BMI Icon </string>
+    <string name="activity_steps_icon_content_description">Activity Steps Icon </string>
+    <string name="addmob_content_description">An Add </string>
+
+    <!-- step activity strings -->
+    <string name="start">Start </string>
+    <string name="end">End </string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="auth_cancelled">Authentication Cancelled</string>
+    <string name="connection_suspended">Connection Suspended</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="steps_title">Steps : </string>
+    <string name="steps_updated">Data Updated</string>
+    <string name="week_steps_stream_name">estimated_steps</string>
+    <string name="week_steps_pakage_name">com.google.android.gms</string>
+    <string name="auth_state_pending">auth_state_pending</string>
+    <string name="steps_chart_start_value">Loading .....</string>
+    <string name="steps_chart_content_description">Chart for the user step </string>
+    <string name="steps_history_title">History for Last Week</string>
+    <string name="steps_history_title_content_description">History for Last Week Title</string>
+    <string name="steps_history">History data for Last Week </string>
+    <string name="steps_history_content_description">History data for Last Week</string>
+
+
+    <!-- settings activity strings -->
+    <string name="already_subscribed">You are already subscribed to the Recording Google Fit</string>
+    <string name="subscribed">Subscribed to the Recording Google Fit</string>
+    <string name="canceled_subscribtion">Canceled subscriptions to the Recording Google Fit</string>
+    <string name="canceled_failed">Failed to cancel subscriptions to the Recording Google Fit</string>
+    <string name="steps_add_googlefit">Step Count</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="title_activity_settings">Steps Settings</string>
+    <string name="strat_subscribe">Start Subscribe</string>
+    <string name="stop_subscribe">Stop Subscribe</string>
+    <string name="subscribe_button_content_description">Subscribe Button</string>
+    <string name="subscribe_button_label">Do you want to Subscripe to Recording?</string>
+    <string name="subscribe_button_label_content_description">Do you want to Subscripe to Recording</string>
+    <string name="update_today_button_label_content_description">Do you want to update today Steps</string>
+    <string name="update_today_button_label">Do you want to update today Steps?</string>
+    <string name="update_today_button_content_description">Update Today</string>
+    <string name="update_today_button">Update Today</string>
+    <string name="update_yesterday_button_label_content_description">Do you want to update yesterday Steps</string>
+    <string name="update_yesterday_button_label">Do you want to update Yesterday Steps?</string>
+    <string name="update_yesterday_button_content_description">Update Yesterday</string>
+    <string name="update_yesterday_button">Update Yesterday</string>
+    <string name="clear_history_button_label_content_description">Do you want to Clear Last Week Steps?</string>
+    <string name="clear_history_button_label">Do you want to Clear Last Week Steps?</string>
+    <string name="clear_history_button_content_description">UClear History</string>
+    <string name="clear_history_button">Clear History</string>
+
+
+
+    <!-- Tracking activity strings -->
+    <string name="activity_type">type</string>
+    <string name="activity_state">state</string>
+    <string name="activity_confidence">confidence</string>
+    <string name="broadcast_confidences">confidences</string>
+    <string name="broadcast_intent_activity_detected">activity_intent</string>
+    <string name="activity_confidence_label_text">Confidence :</string>
+    <string name="activity_state_label_text">User activity: </string>
+    <string name="activity_running_notification_text">Are you running? </string>
+    <string name="activity_running_notification_channel">M_CH_ID </string>
+    <string name="activity_unknown">unknown</string>
+    <string name="activity_in_vehicle">in vehicle</string>
+    <string name="activity_on_bicycle">on bicycle</string>
+    <string name="activity_on_foot">on foot</string>
+    <string name="activity_running">running</string>
+    <string name="activity_still">still</string>
+    <string name="activity_tilting">tilting</string>
+    <string name="activity_walking">walking</string>
+    <string name="request">Request</string>
+    <string name="remove">Remove</string>
+    <string name="tracking_fail"> tracking updates failed.</string>
+    <string name="tracking_success"> tracking updates success.</string>
+    <string name="all_confidence_text_content_description"> tracking updates failed.</string>
+    <string name="all_confidence_text"> tracking updates success.</string>
+    <string name="tracking_button_start"> Start Tracking</string>
+    <string name="tracking_button_stop"> Stop Tracking</string>
+    <string name="tracking_button_content_description"> tracking toggle button to stop and start tracking.</string>
+
+
+    <!-- BMI TRACKING strings -->
+    <string name="bmi_below_ideal_status">Your BMI below ideal range</string>
+    <string name="bmi_ideal_status">Your BMI in ideal range</string>
+    <string name="bmi_above_ideal_status">Your BMI above ideal range</string>
+    <string name="bmi_room_db"> get_fit_bmi_database</string>
+    <string name="delete_all_bmi"> deleting all bmi history .......</string>
+    <string name="update_bmi"> Update BMI</string>
+    <string name="delete_bmi"> BMI Deleted</string>
+    <string name="add_bmi_content_Description"> Add BMI Button</string>
+
+    <!-- BMI Dialog strings -->
+    <string name="bmi_dialog_title"> BMI Calculations</string>
+    <string name="bmi_dialog_weight_hint"> Your Weight in KG</string>
+    <string name="bmi_dialog_height_hint"> Your Height in Meter</string>
+    <string name="bmi_dialog_add"> Add</string>
+    <string name="bmi_dialog_cancel"> Cancel</string>
+
+
+    <!-- Steps Dialog strings -->
+    <string name="steps_dialog_title"> Steps Update</string>
+    <string name="steps_dialog_text_hint"> Number Of Steps</string>
+    <string name="steps_dialog_update"> Update</string>
+    <string name="steps_dialog_cancel"> Cancel</string>
+
+
+    <!-- Cardview strings -->
+    <string name="card_bmi_value"> 25</string>
+    <string name="card_bmi_staus_description">Your BMI in ideal range</string>
+    <string name="card_bmi_value_content_description">Value of your BMI</string>
+    <string name="card_bmi_staus_description_content_description"> The Level of your BMI </string>
+    <string name="card_bmi_date"> 7 May 2019</string>
+    <string name="card_bmi_date_content_description"> BMI created date</string>
+
+    <!-- Menus strings -->
+    <string name="menu_delete_all">Delete All</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Widget strings -->
+    <string name="widget_bmi_value">Bmi Value</string>
+    <string name="widget_bmi_content_description">Your Latest BMI Value</string>
+    <string name="widget_bmi_status">Your Bmi Status</string>
+    <string name="widget_bmi_status_content_description">Your Latest BMI status</string>
+    <string name="widget_bmi_button">Check Your Bmi Now </string>
+    <string name="widget_bmi_button_content_description">Check BMI Button</string>
+    <string name="widget_app_service">MyAppWidgetService</string>
+    <string name="widget_paper_bmi_value">widgetbmivalue</string>
+    <string name="widget_paper_content_status">widgetbmicontentstatus</string>
+    <string name="widget_your_bmi_title">Your BMI : </string>
+    <string name="widget_clear_value">No BMI value Found </string>
+    <string name="widget_clear_status">Add your Latest BMI Now </string>
+
+
+
+    <!-- ADMOB IDS -->
+    <string name="admob_app_id">ca-app-pub-5494408119582867~1918574107</string>
+    <string name="banner_admob">ca-app-pub-5494408119582867/8647633987</string>
+    <string name="device_admob_test">0B770B3013A3605B8422232A0D78BB37</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

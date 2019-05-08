@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <!--  Widget Dimensions  -->
+    <dimen name="widget_margin">16dp</dimen>
+    <dimen name="widget_padding">24dp</dimen>
+    <dimen name="widget_text_padding">8dp</dimen>
+    <!--  Main Activity Dimensions  -->
+    <dimen name="tbc_margin_end">64dp</dimen>
+    <dimen name="tbc_margin_start">48dp</dimen>
+    <dimen name="tb_image_height">275dp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="text_padding">10dp</dimen>
+    <dimen name="activity_icon_height">75dp</dimen>
+    <dimen name="activity_icon_weight">75dp</dimen>
+    <dimen name="activity_icon_padding">5dp</dimen>
+
+
+    <!--  Steps Activity Dimensions  -->
+    <dimen name="steps_txt_large">30sp</dimen>
+    <dimen name="steps_txt_normal">18sp</dimen>
+    <dimen name="chart_margin">20dp</dimen>
+    <dimen name="chart_height">150dp</dimen>
+    <dimen name="chart_weight">150dp</dimen>
+
+    <!--  Bmi Dialog Dimensions  -->
+    <dimen name="dialog_bmi_text_padding">8dp</dimen>
+    <dimen name="dialog_bmi_button_padding">16dp</dimen>
+
+    <!--  Steps Dialog Dimensions  -->
+    <dimen name="dialog_steps_text_padding">8dp</dimen>
+    <dimen name="dialog_steps_button_padding">16dp</dimen>
+
+    <!--  Cardview Dimensions  -->
+    <dimen name="card_view_margin">8dp</dimen>
+
+
+</resources>
